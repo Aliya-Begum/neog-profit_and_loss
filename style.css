@@ -1,0 +1,17 @@
+#footer {
+    text-align: center;
+}
+
+.img {
+    max-width: 2.5rem
+}
+
+#list {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.list-inline {
+    display: inline;
+}
