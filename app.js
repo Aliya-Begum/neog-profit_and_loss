@@ -7,12 +7,12 @@ function calculateProfutAndLoss(initialPrice, quantity, currentPrice){
         if(currentPrice > initialPrice){
             const profit = (currentPrice - initialPrice)*quantity;
             const profitPercentage = (profit/initialPrice)*100;
-            showOutput(`hey, the profit is ${profit} and the percetage is ${profitPercentage.toFixed(2)}%`);
+            showOutput(`Hey, the profit is ${profit} and the percetage is ${profitPercentage.toFixed(2)}%`);
     
         }else if(initialPrice > currentPrice){
             const loss = (initialPrice -currentPrice)*quantity;
             const lossPercentage = (loss/initialPrice)*100;
-            showOutput(`Hey, the loss ${loss} and the percentage is ${lossPercentage.toFixed(2)}%`);
+            showOutput(`Hey, the loss is ${loss} and the percentage is ${lossPercentage.toFixed(2)}%`);
     
         }else{
             showOutput("no pain, no gain and no gain, no pain");
