@@ -29,11 +29,15 @@ h1{
 .input-value{
     display: block;
     margin: auto;
-    max-width: 40%;
+    width: 20%;
     margin-top: 0.5rem;
     border: solid 2px var(--primary-color);
     border-radius: 0.3rem;
-    padding: 0.4rem 1rem;
+    padding: 0.6rem 1rem;
+}
+::placeholder{
+    text-align: center;
+    cursor: c;
 }
 
 #calculate-btn{
