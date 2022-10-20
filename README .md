@@ -1,7 +1,7 @@
 
 # Stock Profit and Loss Calculator
 
-A website you can use to check how much profit or loss you make for a particular stock quantity in absolute and percentage value. This website build with using HTML, CSS and JavaScript.
+A website you can use to check how much profit or loss you make for a particular stock quantity in absolute and percentage value. This website build with HTML, CSS and JavaScript.
 
 ## How to use this website:
 
