@@ -18,7 +18,7 @@ function calculateProfutAndLoss(initialPrice, quantity, currentPrice){
                 showOutput("no pain, no gain and no gain, no pain");
             } 
     }else{
-        showOutput("input values can not be empty or zero");
+        showOutput("input values can not be empty and should be greater than 0.");
     } 
 }
 
