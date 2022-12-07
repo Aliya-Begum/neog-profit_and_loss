@@ -2,7 +2,7 @@ const inputValues = document.querySelectorAll('.input-value');
 const calculateBtn = document.querySelector('#calculate-btn');
 const outputDiv = document.querySelector('#output-div');
 
-function calculateProfutAndLoss(initialPrice, quantity, currentPrice){
+function calculateProfitAndLoss(initialPrice, quantity, currentPrice){
     if(initialPrice>0&&quantity>0&&currentPrice>0){
             if(currentPrice > initialPrice){
                 const profit = (currentPrice - initialPrice)*quantity;
@@ -26,7 +26,7 @@ function clickHandler(){
     var initialPrice = Number(inputValues[0].value);
     var quantity =  Number(inputValues[1].value) ;
     var currentPrice = Number(inputValues[2].value); 
-    calculateProfutAndLoss(initialPrice,quantity, currentPrice);
+    calculateProfitAndLoss(initialPrice,quantity, currentPrice);
 }
 
 function showOutput(msg){
