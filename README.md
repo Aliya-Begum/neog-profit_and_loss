@@ -3,7 +3,8 @@
 
 A website you can use to check how much profit or loss you make for a particular stock quantity in absolute and percentage value.
 
-## Link - https://neogcamp-profitloss-calculator-mark14.netlify.app/
+## Link 
+https://neogcamp-profitloss-calculator-mark14.netlify.app/
 
 ## Technology used
 * HTML
